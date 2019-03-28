@@ -1,0 +1,114 @@
+body {
+    font-size: 16px;
+}
+
+#outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+  
+#middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+#inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: #3f3f3f;
+    margin-top: -20px;
+}
+
+#inner {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; margin-top: 30px; }
+    to   { opacity: 1; margin-top: -20px; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 100%;
+    margin: 5px;
+}
+
+a {
+    color: #bb0000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #830000;
+}
+
+#img-links {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-link {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 70px;
+    height: 70px;
+    display: block;
+    opacity: 0.7;
+}
+
+.img-link:hover {
+    opacity: 1;
+}
+
+#linkedin {
+    background-image: url('../img/li.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#github {
+    background-image: url('../img/gh.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
