@@ -1,2 +1,2 @@
-# paoloni.co
-My website http://paoloni.co
+# Tom Paoloni's Website
+View at: http://paoloni.co
