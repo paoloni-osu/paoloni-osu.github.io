@@ -1,0 +1,71 @@
+<!-- 2019-03-03 | Tom Paoloni | Created file & calculator design -->
+<!-- 2019-03-21 | JS Teoh | Added additional special buttons -->
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Javascript Calculator</title>
+    <meta name="description" content="CSE 3901 Webapps Project 5">
+    <meta name="author" content="Austin Pearce, JS Teoh, Brandon Arbuthnot, Tom Paoloni">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <script src="js/scripts.js" async></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <!--Title header-->
+      <h1>Javascript Calculator</h1>
+
+      <!--The calculator itself-->
+      <div id="calculator">
+        <!--The calculator's "screen"-->
+        <div id="screen">
+          <small></small>
+          <p>_</p>
+        </div>
+        <!--All of the calculator buttons-->
+        <div id="button-panel">
+          <button type="button" class="mem-button">MR</button>
+          <button type="button" class="mem-button">MS</button>
+          <button type="button" class="mem-button">M+</button>
+          <button type="button" class="mem-button">M-</button>
+          <button type="button" class="sp-button">&#8730</button>
+          <button type="button" class="sp-button">x<sup>2</sup></button>
+          <button type="button" class="sp-button">log</button>
+          <button type="button" class="sp-button">ln</button>
+          <button type="button" class="sp-button">sin</button>
+          <button type="button" class="sp-button">cos</button>
+          <button type="button" class="sp-button">tan</button>
+          <button type="button" class="sp-button">e<sup>x</sup></button>
+          <button type="button" class="sp-button">sin<sup>-1</sup></button>
+          <button type="button" class="sp-button">cos<sup>-1</sup></button>
+          <button type="button" class="sp-button">tan<sup>-1</sup></button>
+          <button type="button" class="sp-button">deg</button>
+          <button type="button" class="op-button">CE</button>
+          <button type="button" class="op-button">C</button>
+          <button type="button" class="op-button">&larr;</button>
+          <button type="button" class="op-button">&#247;</button>
+          <button type="button" class="num-button">7</button>
+          <button type="button" class="num-button">8</button>
+          <button type="button" class="num-button">9</button>
+          <button type="button" class="op-button">&times;</button>
+          <button type="button" class="num-button">4</button>
+          <button type="button" class="num-button">5</button>
+          <button type="button" class="num-button">6</button>
+          <button type="button" class="op-button">-</button>
+          <button type="button" class="num-button">1</button>
+          <button type="button" class="num-button">2</button>
+          <button type="button" class="num-button">3</button>
+          <button type="button" class="op-button">+</button>
+          <button type="button" class="op-button">&#177;</button>
+          <button type="button" class="num-button">0</button>
+          <button type="button" class="num-button">.</button>
+          <button type="button" class="op-button">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
