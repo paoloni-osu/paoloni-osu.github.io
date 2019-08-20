@@ -1,4 +1,0 @@
-# Project 5: JavaScript Calculator
-
-PLEASE READ THE ASSIGNMENT ON THE COURSE WEBSITE.
-
